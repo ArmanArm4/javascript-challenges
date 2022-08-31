@@ -2,8 +2,6 @@
 "node RightShiftbyDivision.js";
 
 function shiftToRight(x, y) {
-  let z = 2 ** y;
-  console.log(z);
   let output = Math.floor(x / 2 ** y);
   return output;
 }
